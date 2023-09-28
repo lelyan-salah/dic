@@ -2,9 +2,9 @@ dict1 = {"Name": "Ahmed", "Age": 23}
 dict2 = {"City": "Gaza", "Gender": "Male"}
 
 concatenated_dict = {
-    "Name": "Ram",
-    "Age": dict1["Age"],
-    "City": "Salem",
-    "Gender": dict2["Gender"]
+    "Name": "Ahmed",
+    "Age": dict1[23],
+    "City": "Gaza",
+    "Gender": dict2["Male"]
 }
 print(concatenated_dict)
